@@ -10,7 +10,7 @@ const Header = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setYTranslateVal(window.scrollY / 4)
+      setYTranslateVal(window.scrollY);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -24,7 +24,7 @@ const Header = () => {
     <div className=''>
       
       <div className={
-        `bg-[#44423ecc] flex justify-between px-12 py-5 fixed z-10 w-full`
+        `bg-[#44423ecc] flex justify-between px-12 py-5 fixed z-10 w-full items-center`
       }>
         <div className='flex items-center gap-x-6'>
           <Image 
@@ -42,10 +42,10 @@ const Header = () => {
       </div>
 
       <p 
-        className={`text-[9rem] text-center pt-12}`}
+        className={`text-[9.5rem] text-center pt-12}`}
         style={{
           transform: `translateY(${translateY}px)`,
-          paddingTop: '2rem',
+          paddingTop: '3rem',
         }}
       >
         Jenny & Jason

@@ -37,7 +37,7 @@ export default function Home() {
 
       <div className="grid grid-cols-2 p-12 gap-6 justify-items-center max-w-6xl mx-auto mb-16">
         <div 
-          className={`relative bg-[url('/images/link-card-1.webp')] bg-cover bg-center h-[610px] w-full rounded-xl`}
+          className={`relative bg-[url('/images/link-card-1.webp')] bg-cover bg-center h-[610px] w-full rounded-xl hover:opacity-80 transition-opacity duration-200`}
         >
           <p 
             className='underline text-white text-4xl absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer'
@@ -46,7 +46,7 @@ export default function Home() {
           </p>
         </div>
         <div 
-          className={`relative bg-[url('/images/link-card-2.webp')] bg-cover bg-center h-[610px] w-full  rounded-xl`}
+          className={`relative bg-[url('/images/link-card-2.webp')] bg-cover bg-center h-[610px] w-full  rounded-xl hover:opacity-80 transition-opacity duration-200`}
         >
           <p 
             className='underline text-white text-4xl absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer'
@@ -55,7 +55,7 @@ export default function Home() {
           </p>
         </div>
         <div 
-          className={`relative bg-[url('/images/link-card-3.webp')] bg-cover bg-center h-[610px] w-full rounded-xl`}
+          className={`relative bg-[url('/images/link-card-3.webp')] bg-cover bg-center h-[610px] w-full rounded-xl hover:opacity-80 transition-opacity duration-200`}
         >
           <p 
             className='underline text-white text-4xl absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer'
@@ -64,7 +64,7 @@ export default function Home() {
           </p>
         </div>
         <div 
-          className={`relative bg-[url('/images/link-card-4.webp')] bg-cover bg-center h-[610px] w-full rounded-xl`}
+          className={`relative bg-[url('/images/link-card-4.webp')] bg-cover bg-center h-[610px] w-full rounded-xl hover:opacity-80 transition-opacity duration-200`}
         >
           <p 
             className='underline text-white text-4xl absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 cursor-pointer'
