@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <div className="py-16">
+    <div className="py-16 bg-pink">
       <Image 
         src={headerLogo}
         alt='Header logo'
